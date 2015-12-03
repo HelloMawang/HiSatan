@@ -23,31 +23,31 @@ public class manage_inven : MonoBehaviour {
 		item_num++;
 
 		if (item_list_used[0]== false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 0f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 0f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[0]= true;
 			input_item.GetComponent<inven_num>().inven_list_num=0;
 		} else if (item_list_used[1] == false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 1f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 1f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[1]= true;
 			input_item.GetComponent<inven_num>().inven_list_num=1;
 		} else if (item_list_used[2] == false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 2f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 2f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[2] = true;
 			input_item.GetComponent<inven_num>().inven_list_num=2;
 		}else if (item_list_used[3] == false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 3f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 3f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[3]= true;
 			input_item.GetComponent<inven_num>().inven_list_num=3;
 		}else if (item_list_used[4]== false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 4f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f) + 4f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[4] = true;
 			input_item.GetComponent<inven_num>().inven_list_num=4;
 		}else if (item_list_used[5]== false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 5f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 5f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[5] = true;
 			input_item.GetComponent<inven_num>().inven_list_num=5;
 		}else if (item_list_used[6]== false) {
-			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 6f * new Vector3 (1f, 0f, 0f);
+			input_item.transform.position = gameObject.transform.position + new Vector3 (-11.5f, 4.36f, -0.21f)+ 6f * new Vector3 (0.9f, 0f, 0f);
 			item_list_used[6] = true;
 			input_item.GetComponent<inven_num>().inven_list_num=6;
 		}

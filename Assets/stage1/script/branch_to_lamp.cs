@@ -11,6 +11,10 @@ public class branch_to_lamp : MonoBehaviour {
 	public AudioSource fire_start;
 	public AudioSource fire_continue;
 
+	public GameObject first_fire;
+	public GameObject second_fire;
+	public GameObject third_fire;
+	public GameObject remain_fire;
 	void Update(){
 
 		Vector3 lp = branch.transform.position;
@@ -54,10 +58,19 @@ public class branch_to_lamp : MonoBehaviour {
 		
 		yield return new WaitForSeconds(1f);
 		fire_start.Play ();
-		GameObject.Find ("EventSystem").GetComponent<black_window> ().blackscreen (3f);
+		first_fire.SetActive (true);
 		yield return new WaitForSeconds(1f);
 		fire_continue.Play();
-
+		second_fire.SetActive (true);
+		
+		yield return new WaitForSeconds(1f);
+		third_fire.SetActive (true);
+		
+		yield return new WaitForSeconds(1f);
+		first_fire.SetActive (false);
+		second_fire.SetActive (false);
+		third_fire.SetActive (false);
+		remain_fire.SetActive (true);
 		after_burn.SetActive (true);
 
 	}
