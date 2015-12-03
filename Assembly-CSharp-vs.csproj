@@ -74,6 +74,7 @@
      <Compile Include="Assets\script\inven.cs" />
      <Compile Include="Assets\script\inven_num.cs" />
      <Compile Include="Assets\script\manage_inven.cs" />
+     <Compile Include="Assets\script\manage_inven_global.cs" />
      <Compile Include="Assets\script\move_stage.cs" />
      <Compile Include="Assets\script\on_correcteffect.cs" />
      <Compile Include="Assets\script\player_state.cs" />
