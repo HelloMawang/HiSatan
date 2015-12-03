@@ -26,6 +26,7 @@ public class player_state : MonoBehaviour {
 		player_vector = p_vector;
 		if(is_Rotate==true) {
 			player_vector.x = -player_vector.x;
+			player_vector.z = -player_vector.z;
 		}
 		time_to_walk = dis/walk_speed;
 		StartCoroutine ("do_walk");
