@@ -97,6 +97,7 @@
      <Compile Include="Assets\stage1\script\drawer_touch.cs" />
      <Compile Include="Assets\stage1\script\fire_candle.cs" />
      <Compile Include="Assets\stage1\script\put_candle.cs" />
+     <Compile Include="Assets\stage_residence\script\axe_to_tree.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />

@@ -1,44 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/manage_inven.cs">
     <Files>
       <File FileName="Assets/stage_residence/script/touch_girl.cs" Line="9" Column="79" />
-      <File FileName="Assets/stage1/script/axe_to_chicken.cs" Line="5" Column="2" />
-      <File FileName="Assets/stage1/script/blood_to_circle.cs" Line="3" Column="1" />
-      <File FileName="Assets/stage1/script/book_touch.cs" Line="13" Column="4" />
-      <File FileName="Assets/stage1/script/branch_to_lamp.cs" Line="21" Column="79" />
-      <File FileName="Assets/stage1/script/chicken_to_die.cs" Line="16" Column="79" />
-      <File FileName="Assets/stage1/script/coop_touch.cs" Line="21" Column="79" />
-      <File FileName="Assets/stage1/script/drawer_touch.cs" Line="35" Column="5" />
-      <File FileName="Assets/stage1/script/fire_candle.cs" Line="29" Column="5" />
-      <File FileName="Assets/stage1/script/put_candle.cs" Line="17" Column="79" />
-      <File FileName="Assets/stage1/script/click.cs" Line="24" Column="1" />
-      <File FileName="Assets/script/move_stage.cs" Line="17" Column="1" />
-      <File FileName="Assets/script/player_state.cs" Line="44" Column="67" />
-      <File FileName="Assets/script/manage_inven.cs" Line="16" Column="29" />
+      <File FileName="Assets/stage1/script/axe_to_chicken.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/blood_to_circle.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/book_touch.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/branch_to_lamp.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/chicken_to_die.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/coop_touch.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/drawer_touch.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/fire_candle.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/put_candle.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/click.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/move_stage.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/player_state.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/manage_inven.cs" Line="44" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="JMO Assets" expanded="True">
-              <Node name="Cartoon FX" expanded="True">
-                <Node name="Demo" expanded="True">
-                  <Node name="Assets" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="script" expanded="True">
-              <Node name="manage_inven.cs" selected="True" />
-            </Node>
-            <Node name="stage_residence" expanded="True">
-              <Node name="script" expanded="True" />
-            </Node>
-            <Node name="stage1" expanded="True">
-              <Node name="script" expanded="True" />
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
