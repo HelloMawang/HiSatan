@@ -13,7 +13,7 @@ public class fire_candle : MonoBehaviour {
 		
 		
 		if (dis < 0.5f) {
-			
+			if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 1){
 			GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 			if(Input.GetKeyUp(KeyCode.Mouse0)){
 				Destroy(nofired_candle);
@@ -25,6 +25,7 @@ public class fire_candle : MonoBehaviour {
 
 
 				GameObject.Find ("blank").GetComponent<inven> ().dragitem = false ;
+			}
 			}
 		}
 		

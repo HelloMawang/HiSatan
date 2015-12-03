@@ -13,7 +13,7 @@ public class chicken_to_die : MonoBehaviour {
 		
 		
 		if (dis < 0.5f) {
-			
+			if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 1){
 			GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 			if(Input.GetKeyUp(KeyCode.Mouse0)){
 
@@ -21,6 +21,7 @@ public class chicken_to_die : MonoBehaviour {
 				GameObject.Find ("blank").GetComponent<inven> ().dragitem = false ;
 				GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (this.gameObject);
 
+			}
 			}
 		}
 		

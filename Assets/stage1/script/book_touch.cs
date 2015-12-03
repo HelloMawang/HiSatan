@@ -8,13 +8,15 @@ public class book_touch : MonoBehaviour {
 
 
 	void OnMouseUpAsButton(){
-
-		book_magnified.SetActive (true);
-
+		if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 2) {
+			book_magnified.SetActive (true);
+		}
 	}
 	void Update(){
-		if (Input.GetKeyDown (KeyCode.Mouse0)) {
-			book_magnified.SetActive(false);
+		if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 2) {
+			if (Input.GetKeyDown (KeyCode.Mouse0)) {
+				book_magnified.SetActive (false);
+			}
 		}
 	}
 }

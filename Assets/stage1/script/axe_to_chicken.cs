@@ -14,7 +14,7 @@ public class axe_to_chicken : MonoBehaviour {
 		
 		
 		if (dis < 2f && chicken.activeSelf) {
-			
+			if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 1){
 			GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 			if(Input.GetKeyDown(KeyCode.Mouse0)){
 
@@ -23,6 +23,7 @@ public class axe_to_chicken : MonoBehaviour {
 
 
 
+			}
 			}
 		}
 	
