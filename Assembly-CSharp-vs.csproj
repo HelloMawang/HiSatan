@@ -106,8 +106,11 @@
      <Compile Include="Assets\stage_residence\script\axe_to_pillar.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_pillar_onemore.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_tree.cs" />
+     <Compile Include="Assets\stage_residence\script\cut_cutton.cs" />
+     <Compile Include="Assets\stage_residence\script\fix_axe.cs" />
      <Compile Include="Assets\stage_residence\script\make_new_axe.cs" />
      <Compile Include="Assets\stage_residence\script\new_axe_to_tree.cs" />
+     <Compile Include="Assets\stage_residence\script\scroll_zoom.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
