@@ -1,25 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage1/script/blood_to_circle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_residence/script/axe_to_pillar_onemore.cs">
     <Files>
-      <File FileName="Assets/stage_residence/script/touch_girl.cs" Line="9" Column="79" />
+      <File FileName="Assets/stage_residence/script/new_axe_to_tree.cs" Line="6" Column="1" />
+      <File FileName="Assets/stage_residence/script/touch_girl.cs" Line="1" Column="1" />
       <File FileName="Assets/stage1/script/axe_to_chicken.cs" Line="1" Column="1" />
       <File FileName="Assets/script/player_state.cs" Line="1" Column="1" />
       <File FileName="Assets/script/manage_inven.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="8" Column="1" />
-      <File FileName="Assets/stage1/script/blood_to_circle.cs" Line="22" Column="28" />
+      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="6" Column="1" />
+      <File FileName="Assets/stage1/script/blood_to_circle.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/summon_devil.cs" Line="1" Column="1" />
+      <File FileName="Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/branch_to_lamp.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/make_new_axe.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/axe_to_pillar.cs" Line="18" Column="1" />
+      <File FileName="Assets/stage_residence/script/axe_to_pillar_onemore.cs" Line="49" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="script" expanded="True" />
             <Node name="stage_residence" expanded="True">
-              <Node name="script" expanded="True" />
-            </Node>
-            <Node name="stage1" expanded="True">
               <Node name="script" expanded="True">
-                <Node name="blood_to_circle.cs" selected="True" />
+                <Node name="axe_to_pillar_onemore.cs" selected="True" />
               </Node>
             </Node>
           </Node>

@@ -81,8 +81,13 @@
      <Compile Include="Assets\script\sound_play.cs" />
      <Compile Include="Assets\script\touch_to_move.cs" />
      <Compile Include="Assets\script\touch_to_sound.cs" />
+     <Compile Include="Assets\script\worldmap\goto_barracks.cs" />
+     <Compile Include="Assets\script\worldmap\goto_final.cs" />
      <Compile Include="Assets\script\worldmap\goto_palace.cs" />
      <Compile Include="Assets\script\worldmap\goto_residence.cs" />
+     <Compile Include="Assets\script\worldmap\goto_temple.cs" />
+     <Compile Include="Assets\script\worldmap\goto_town.cs" />
+     <Compile Include="Assets\script\worldmap\goto_woodman.cs" />
      <Compile Include="Assets\stage1\script\axe_to_chicken.cs" />
      <Compile Include="Assets\stage1\script\blood_to_circle.cs" />
      <Compile Include="Assets\stage1\script\book.cs" />
@@ -98,7 +103,11 @@
      <Compile Include="Assets\stage1\script\fire_candle.cs" />
      <Compile Include="Assets\stage1\script\put_candle.cs" />
      <Compile Include="Assets\stage1\script\summon_devil.cs" />
+     <Compile Include="Assets\stage_residence\script\axe_to_pillar.cs" />
+     <Compile Include="Assets\stage_residence\script\axe_to_pillar_onemore.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_tree.cs" />
+     <Compile Include="Assets\stage_residence\script\make_new_axe.cs" />
+     <Compile Include="Assets\stage_residence\script\new_axe_to_tree.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
