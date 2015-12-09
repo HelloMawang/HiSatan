@@ -85,6 +85,7 @@
      <Compile Include="Assets\script\worldmap\goto_final.cs" />
      <Compile Include="Assets\script\worldmap\goto_palace.cs" />
      <Compile Include="Assets\script\worldmap\goto_residence.cs" />
+     <Compile Include="Assets\script\worldmap\goto_stage1.cs" />
      <Compile Include="Assets\script\worldmap\goto_temple.cs" />
      <Compile Include="Assets\script\worldmap\goto_town.cs" />
      <Compile Include="Assets\script\worldmap\goto_woodman.cs" />
