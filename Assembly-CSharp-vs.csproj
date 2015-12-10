@@ -71,6 +71,7 @@
      <Compile Include="Assets\script\SetAcitve_false.cs" />
      <Compile Include="Assets\script\black_window.cs" />
      <Compile Include="Assets\script\click.cs" />
+     <Compile Include="Assets\script\devil_in_boy.cs" />
      <Compile Include="Assets\script\inven.cs" />
      <Compile Include="Assets\script\inven_num.cs" />
      <Compile Include="Assets\script\manage_inven.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\script\worldmap\goto_temple.cs" />
      <Compile Include="Assets\script\worldmap\goto_town.cs" />
      <Compile Include="Assets\script\worldmap\goto_woodman.cs" />
+     <Compile Include="Assets\script\worldmap\title_effect.cs" />
      <Compile Include="Assets\stage1\script\axe_to_chicken.cs" />
      <Compile Include="Assets\stage1\script\blood_to_circle.cs" />
      <Compile Include="Assets\stage1\script\book.cs" />
@@ -117,6 +119,10 @@
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_state.cs" />
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\boy_rotate.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\escape.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\man_dance.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\touch_man.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\2D_Special_Effect_vol1\Darkness Force\skeleton.json.txt" />
      <None Include="Assets\2D_Special_Effect_vol1\Borutikku Web\skeleton.atlas.txt" />

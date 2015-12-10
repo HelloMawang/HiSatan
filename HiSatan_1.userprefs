@@ -1,30 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/touch_to_move.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_woodman's_house/script/escape.cs">
     <Files>
-      <File FileName="Assets/script/touch_to_move.cs" Line="17" Column="4" />
-      <File FileName="Assets/script/worldmap/goto_residence.cs" Line="9" Column="3" />
-      <File FileName="Assets/script/worldmap/goto_barracks.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_final.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_palace.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_temple.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_town.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_woodman.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/scroll_zoom.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/fix_axe.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/make_new_axe.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/touch_to_move.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/player_state.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/move_stage.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/title_effect.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/touch_man.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/touch_girl.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/boy_rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/man_dance.cs" Line="12" Column="26" />
+      <File FileName="Assets/stage_woodman's_house/script/escape.cs" Line="11" Column="18" />
+      <File FileName="Assets/stage1/script/chicken_to_die.cs" Line="18" Column="39" />
+      <File FileName="Assets/script/Object_Cursor.cs" Line="18" Column="100" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="script" expanded="True">
-              <Node name="worldmap" expanded="True" />
-              <Node name="touch_to_move.cs" selected="True" />
-            </Node>
-            <Node name="stage_residence" expanded="True">
-              <Node name="script" expanded="True" />
+            <Node name="script" expanded="True" />
+            <Node name="stage_woodman's_house" expanded="True">
+              <Node name="script" expanded="True">
+                <Node name="escape.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="stage1" expanded="True">
               <Node name="script" expanded="True" />

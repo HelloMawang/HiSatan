@@ -11,7 +11,7 @@ public class player_state : MonoBehaviour {
 	public int there_position;
 	public Animator anima;
 
-	bool is_Rotate= false;
+	public bool is_Rotate= false;
 
 	public void walk(Vector3 p_vector,float dis,int its_location){
 		StopCoroutine ("do_walk");
