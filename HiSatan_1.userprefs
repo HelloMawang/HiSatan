@@ -1,27 +1,33 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_woodman's_house/script/escape.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_woodman's_house/script/boy_rotate.cs">
     <Files>
       <File FileName="Assets/script/touch_to_move.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/player_state.cs" Line="1" Column="1" />
       <File FileName="Assets/script/move_stage.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/title_effect.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_woodman's_house/script/touch_man.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/touch_girl.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_woodman's_house/script/boy_rotate.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_woodman's_house/script/man_dance.cs" Line="12" Column="26" />
-      <File FileName="Assets/stage_woodman's_house/script/escape.cs" Line="11" Column="18" />
-      <File FileName="Assets/stage1/script/chicken_to_die.cs" Line="18" Column="39" />
-      <File FileName="Assets/script/Object_Cursor.cs" Line="18" Column="100" />
+      <File FileName="Assets/stage1/script/chicken_to_die.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Object_Cursor.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/devil_in_boy.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/find_statue.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/touch_woman.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/statue_to_man.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/bat_to_man.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="6" Column="2" />
+      <File FileName="Assets/stage_woodman's_house/script/escape_with_girl.cs" Line="11" Column="63" />
+      <File FileName="Assets/stage_woodman's_house/script/boy_rotate.cs" Line="18" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="script" expanded="True" />
+            <Node name="script" expanded="True">
+              <Node name="worldmap" expanded="True" />
+            </Node>
+            <Node name="stage_residence" expanded="True">
+              <Node name="script" expanded="True" />
+            </Node>
             <Node name="stage_woodman's_house" expanded="True">
               <Node name="script" expanded="True">
-                <Node name="escape.cs" selected="True" />
+                <Node name="boy_rotate.cs" selected="True" />
               </Node>
             </Node>
             <Node name="stage1" expanded="True">

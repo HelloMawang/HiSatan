@@ -79,6 +79,7 @@
      <Compile Include="Assets\script\move_stage.cs" />
      <Compile Include="Assets\script\on_correcteffect.cs" />
      <Compile Include="Assets\script\player_state.cs" />
+     <Compile Include="Assets\script\soulstone\soulstone_manage.cs" />
      <Compile Include="Assets\script\sound_play.cs" />
      <Compile Include="Assets\script\touch_to_move.cs" />
      <Compile Include="Assets\script\touch_to_sound.cs" />
@@ -119,10 +120,16 @@
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_state.cs" />
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\bat_to_man.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\boy_rotate.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\escape.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\escape_with_girl.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\find_statue.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\man_dance.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\statue_to_man.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\torch_to_stairs.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\touch_man.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\touch_woman.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\2D_Special_Effect_vol1\Darkness Force\skeleton.json.txt" />
      <None Include="Assets\2D_Special_Effect_vol1\Borutikku Web\skeleton.atlas.txt" />
