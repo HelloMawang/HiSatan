@@ -10,6 +10,7 @@ public class new_axe_to_tree : MonoBehaviour {
 	public GameObject cat_on_tree;
 	public GameObject jumping_cat;
 	public GameObject girl;
+	public GameObject main_camera;
 	
 	void Update () {
 		Vector3 lp = tree_area.transform.position;
@@ -36,8 +37,10 @@ public class new_axe_to_tree : MonoBehaviour {
 		yield return new WaitForSeconds (1f);
 		jumping_cat.SetActive (false);
 		girl.SetActive (true);
-		
 		GameObject.Find ("blank").GetComponent<inven> ().dragitem = false ;
+		yield return new WaitForSeconds (2f);
+		GameObject.Find ("soulstone_manager").transform.position = new Vector3 (main_camera.transform.position.x, main_camera.transform.position.y, 0f);
+		GameObject.Find ("soulstone_manager").GetComponent<soulstone_manage> ().get_soulstone (1, 1);
 		
 	}
 }

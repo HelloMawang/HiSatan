@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_woodman's_house/script/boy_rotate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_residence/script/get_soulstone.cs">
     <Files>
       <File FileName="Assets/script/touch_to_move.cs" Line="1" Column="1" />
       <File FileName="Assets/script/move_stage.cs" Line="1" Column="1" />
@@ -11,24 +11,33 @@
       <File FileName="Assets/stage_woodman's_house/script/touch_woman.cs" Line="1" Column="1" />
       <File FileName="Assets/stage_woodman's_house/script/statue_to_man.cs" Line="1" Column="1" />
       <File FileName="Assets/stage_woodman's_house/script/bat_to_man.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="6" Column="2" />
-      <File FileName="Assets/stage_woodman's_house/script/escape_with_girl.cs" Line="11" Column="63" />
-      <File FileName="Assets/stage_woodman's_house/script/boy_rotate.cs" Line="18" Column="34" />
+      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="15" Column="23" />
+      <File FileName="Assets/stage_woodman's_house/script/escape_with_girl.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/boy_rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/torch_to_stairs.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/summon_devil.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/new_axe_to_tree.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/get_soulstone.cs" Line="15" Column="1" />
+      <File FileName="Assets/stage_residence/script/ori_axe_to_pillar.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/axe_to_pillar_onemore.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/worldmap_manage.cs" Line="10" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="script" expanded="True">
+              <Node name="soulstone" expanded="True" />
               <Node name="worldmap" expanded="True" />
             </Node>
             <Node name="stage_residence" expanded="True">
-              <Node name="script" expanded="True" />
+              <Node name="script" expanded="True">
+                <Node name="get_soulstone.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="stage_woodman's_house" expanded="True">
-              <Node name="script" expanded="True">
-                <Node name="boy_rotate.cs" selected="True" />
-              </Node>
+              <Node name="script" expanded="True" />
             </Node>
             <Node name="stage1" expanded="True">
               <Node name="script" expanded="True" />

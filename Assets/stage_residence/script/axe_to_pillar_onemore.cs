@@ -17,6 +17,9 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 
 	//
 	public GameObject background;
+	public GameObject girl_with_cat;
+	public GameObject cat;
+	public GameObject ori_tree;
 	public GameObject girl;
 	public GameObject tree;
 	public GameObject moveareal;
