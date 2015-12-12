@@ -13,9 +13,11 @@ public class text_manager : MonoBehaviour {
 
 	public Text main_Text;
 	private int num;
-	private string[] data_base = {"첫번째는 지금 보고 있으신 문장입니다. and this is new line check","두번째도 지금 보고 있으신 문장입니다."};
-	public void change_sentence(int num){
-		this.num = num;
+	private string[] data_base = {"분명 그를 불러낼 수 있는 방법이 있을거야"
+		,"불길은 삽시간에 짚단을 삼켜버렸다"
+		,"나를 불러낸 것이 너로구나. 너의 의지를 내가 돕겠다. 나를 받아들여라."};
+	public void change_sentence(int number){
+		this.num = number;
 		StopCoroutine ("change_sentence_order");
 		StartCoroutine ("change_sentence_order");
 	}

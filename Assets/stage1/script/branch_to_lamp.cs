@@ -65,6 +65,7 @@ public class branch_to_lamp : MonoBehaviour {
 		third_fire.SetActive (true);
 		
 		yield return new WaitForSeconds(1f);
+		GameObject.Find ("Text_text").GetComponent<text_manager> ().change_sentence (1);
 		first_fire.SetActive (false);
 		second_fire.SetActive (false);
 		third_fire.SetActive (false);

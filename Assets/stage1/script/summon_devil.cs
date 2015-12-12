@@ -14,10 +14,11 @@ public class summon_devil : MonoBehaviour {
 	}
 
 	IEnumerator summoned(){
-		yield return new WaitForSeconds (3f);
+		GameObject.Find ("Text_text").GetComponent<text_manager> ().change_sentence (2);
+		yield return new WaitForSeconds (8f);
 		soulstone.SetActive (true);
 		GameObject.Find ("soulstone_manager").GetComponent<soulstone_manage> ().set_0 ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (4f);
 		soulstone.SetActive (false);
 		worldmap.SetActive (true);
 	}

@@ -10,15 +10,8 @@ public class player_state : MonoBehaviour {
 	public int his_position = 0;
 	public int there_position;
 	public Animator anima;
-<<<<<<< HEAD
-	
-	public bool is_Rotate= false;
-	
-=======
-
 	public bool is_Rotate= false;
 
->>>>>>> master
 	public void walk(Vector3 p_vector,float dis,int its_location){
 
 		StopCoroutine ("do_walk");
@@ -41,14 +34,7 @@ public class player_state : MonoBehaviour {
 	}
 	public IEnumerator do_walk (){
 		int frame = 50;
-<<<<<<< HEAD
-		anima.SetBool ("walk", true);
-		for (int i=0; i<time_to_walk*frame; i++) {
-			
-			gameObject.transform.Translate (player_vector * (walk_speed/frame) );
-			yield return new WaitForSeconds(1f/frame); 
-=======
-		
+
 		if (anima.GetBool ("Idle") == true || anima.GetBool("walk")==true) {
 			anima.SetBool ("walk", true);
 			anima.SetBool ("Idle", false);
@@ -61,7 +47,6 @@ public class player_state : MonoBehaviour {
 			GameObject.Find ("EventSystem").GetComponent<move_stage> ().camera_change (his_position);
 			anima.SetBool ("walk", false);
 			anima.SetBool ("Idle", true);
->>>>>>> master
 		}
 	}
 	public float axe_hit_time;

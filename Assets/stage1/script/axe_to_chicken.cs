@@ -5,12 +5,6 @@ public class axe_to_chicken : MonoBehaviour {
 
 	public GameObject chicken;
 	public GameObject chicken_blood;
-<<<<<<< HEAD
-	
-=======
-
-
->>>>>>> master
 	bool onlyone = false;
 	// Update is called once per frame
 	void Update () {
