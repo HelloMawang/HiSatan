@@ -72,6 +72,7 @@ public class branch_to_lamp : MonoBehaviour {
 		third_fire.SetActive (false);
 		remain_fire.SetActive (true);
 		after_burn.SetActive (true);
+		GameObject.Find ("Text_text").GetComponent<text_manager> ().change_sentence (1);
 
 	}
 }

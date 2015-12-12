@@ -1,19 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/worldmap/goto_final.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage1/script/summon_devil.cs">
     <Files>
-      <File FileName="Assets/script/itemtext_manager.cs" Line="14" Column="15" />
-      <File FileName="Assets/script/Object_Cursor.cs" Line="30" Column="3" />
-      <File FileName="Assets/script/text_manager.cs" Line="3" Column="1" />
+      <File FileName="Assets/script/itemtext_manager.cs" Line="14" Column="42" />
+      <File FileName="Assets/script/Object_Cursor.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/text_manager.cs" Line="20" Column="20" />
       <File FileName="Assets/script/item_info.cs" Line="11" Column="85" />
-      <File FileName="Assets/script/DragGameObject.cs" Line="23" Column="17" />
-      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="72" Column="39" />
-      <File FileName="Assets/script/worldmap/worldmap_manage.cs" Line="10" Column="3" />
-      <File FileName="Assets/script/worldmap/goto_palace.cs" Line="8" Column="42" />
-      <File FileName="Assets/script/worldmap/goto_residence.cs" Line="10" Column="32" />
-      <File FileName="Assets/script/worldmap/goto_woodman.cs" Line="9" Column="32" />
-      <File FileName="Assets/script/worldmap/goto_temple.cs" Line="9" Column="32" />
+      <File FileName="Assets/script/DragGameObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/worldmap_manage.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/goto_palace.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/goto_residence.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/goto_woodman.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/worldmap/goto_temple.cs" Line="1" Column="1" />
       <File FileName="Assets/script/worldmap/goto_final.cs" Line="4" Column="42" />
+      <File FileName="Assets/stage_residence/script/click_cat.cs" Line="9" Column="18" />
+      <File FileName="Assets/script/player_state.cs" Line="48" Column="34" />
+      <File FileName="Assets/stage1/script/axe_to_chicken.cs" Line="7" Column="34" />
+      <File FileName="Assets/script/move_stage.cs" Line="16" Column="40" />
+      <File FileName="Assets/stage1/script/branch_to_lamp.cs" Line="68" Column="83" />
+      <File FileName="Assets/stage1/script/summon_devil.cs" Line="21" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +27,7 @@
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="script" expanded="True">
               <Node name="soulstone" expanded="True" />
-              <Node name="worldmap" expanded="True">
-                <Node name="goto_final.cs" selected="True" />
-              </Node>
+              <Node name="worldmap" expanded="True" />
             </Node>
             <Node name="stage_residence" expanded="True">
               <Node name="script" expanded="True" />
@@ -32,7 +36,9 @@
               <Node name="script" expanded="True" />
             </Node>
             <Node name="stage1" expanded="True">
-              <Node name="script" expanded="True" />
+              <Node name="script" expanded="True">
+                <Node name="summon_devil.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

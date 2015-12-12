@@ -13,7 +13,12 @@ public class text_manager : MonoBehaviour {
 
 	public Text main_Text;
 	private int num;
-	private string[] data_base = {"첫번째는 지금 보고 있으신 문장입니다. and this is new line check","두번째도 지금 보고 있으신 문장입니다."};
+	private string[] data_base = {" 분명 그를 불러낼 수 있는 방법이 있을거야"
+		,
+		" 불길은 삽시간에 짚단을 삼켜버렸다"
+		,
+		" 나를 불러낸 것이 너로구나. 너의 의지를 내가 돕겠다. 나를 받아들여라."
+	};
 	public void change_sentence(int num){
 		this.num = num;
 		StopCoroutine ("change_sentence_order");
@@ -24,6 +29,8 @@ public class text_manager : MonoBehaviour {
 			main_Text.text = data_base[num].Substring(0,i);
 			yield return new WaitForSeconds(text_delay);
 		}
+		yield return new WaitForSeconds (2f);
+		main_Text.text = "";
 	}
 
 	void Start(){
