@@ -5,9 +5,12 @@ public class escape : MonoBehaviour {
 
 	public GameObject captured;
 
-	void OnMouseUpAsButton(){
-
+	IEnumerator OnMouseUpAsButton(){
+		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (2);
 		captured.SetActive (false);
-		Destroy (this);
+		yield return new WaitForSeconds (2.2f);
+		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (3);
+		
+		Destroy (this.gameObject);
 	}
 }

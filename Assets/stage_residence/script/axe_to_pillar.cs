@@ -15,7 +15,8 @@ public class axe_to_pillar : MonoBehaviour {
 			if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 8){
 				GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 				if(Input.GetKeyUp(KeyCode.Mouse0)){
-
+					
+					GameObject.Find ("Text_text").GetComponent<text_manager_residence> ().change_sentence (4);
 					GameObject.Find ("item").GetComponent <manage_inven> ().pop_item(this.gameObject);
 					GameObject.Find ("item").GetComponent <manage_inven> ().push_item(axe_head);
 					GameObject.Find ("item").GetComponent <manage_inven> ().push_item(branch);

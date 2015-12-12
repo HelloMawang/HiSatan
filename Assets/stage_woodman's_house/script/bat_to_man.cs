@@ -12,7 +12,7 @@ public class bat_to_man : MonoBehaviour {
 		float dis = Vector3.Distance (bat.transform.position, lp);
 		
 		
-		if (dis < 2f) {
+		if (dis < 3f) {
 			if (GameObject.Find ("Boy").GetComponent<player_state> ().his_position == 5 && finding_man.activeSelf){
 				GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 				if(Input.GetKeyUp(KeyCode.Mouse0)){

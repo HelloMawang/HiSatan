@@ -15,11 +15,15 @@ public class text_manager_residence : MonoBehaviour {
 	private int num;
 	private string[] data_base = {"저 아이 목에 걸린 건 분명 마정석이다. 저걸 꼭 얻어야 하는데"
 		,
-		"저택이 붕괴하면 근방의 사람들은 모두 무사하지 못하겠지.",
+		"저택이 붕괴하면 근방의 사람들은 모두 무사하지 못하겠지."
+		,
 		" 이 집은 기둥 하나만 망가져도 무너져 내릴 것 같다."
 		,
 		"저택의 곳곳에서 균열이 일어난다. 바닥과 지붕이 흔들린다."
-
+		,
+		"도끼가 너무 불안정해"
+		,
+		"도끼의 손잡이는 이미 못쓸정도로 부러졌다."
 	};
 	public void change_sentence(int number){
 		num = number;

@@ -14,7 +14,6 @@ public class make_new_axe : MonoBehaviour {
 				GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 				if(Input.GetKeyUp(KeyCode.Mouse0)){
 					
-					
 					GameObject.Find ("item").GetComponent <manage_inven> ().pop_item(this.gameObject);
 					GameObject.Find ("item").GetComponent <manage_inven> ().pop_item(axe_head);
 				

@@ -136,11 +136,16 @@
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\bat_to_man.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\boy_rotate.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\carpet_click.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\enter_house.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\escape.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\escape_index.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\escape_with_girl.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\find_statue.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\get_soulstone_woodman.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\hit_by_man.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\man_dance.cs" />
+     <Compile Include="Assets\stage_woodman&apos;s_house\script\newaxe_to_tree.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\statue_to_man.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\torch_to_stairs.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\touch_man.cs" />

@@ -28,7 +28,7 @@ public class torch_to_stairs : MonoBehaviour {
 		yield return new WaitForSeconds(1f);
 		
 		stairs_fired.SetActive (true);
-		
+		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (5);
 		GameObject.Find ("blank").GetComponent<inven> ().dragitem = false ;
 		GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (torch.gameObject);
 	}

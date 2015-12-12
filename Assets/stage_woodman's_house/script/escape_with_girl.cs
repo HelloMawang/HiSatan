@@ -8,6 +8,9 @@ public class escape_with_girl : MonoBehaviour {
 	public GameObject captured_boy;
 	public GameObject woman;
 	public GameObject womanandgirl;
+
+	public GameObject pantaegi;
+
 	void OnMouseUpAsButton() {
 		if (captured_boy.activeSelf == false) {
 			boy.transform.position = new Vector3 (29.88935f, -2f, 0f);
@@ -16,6 +19,9 @@ public class escape_with_girl : MonoBehaviour {
 			woman.SetActive(false);
 			womanandgirl.SetActive(true);
 			Destroy(GameObject.Find("LHW-inside of stair").GetComponent<touch_to_move>());
+
+			pantaegi.SetActive(true);
+			GameObject.Find("Text_index2").GetComponent<escape_index>().escape();
 		}
 	}
 }
