@@ -5,7 +5,12 @@ public class axe_to_chicken : MonoBehaviour {
 
 	public GameObject chicken;
 	public GameObject chicken_blood;
+<<<<<<< HEAD
 	
+=======
+
+
+>>>>>>> master
 	bool onlyone = false;
 	// Update is called once per frame
 	void Update () {
@@ -35,8 +40,7 @@ public class axe_to_chicken : MonoBehaviour {
 			onlyone = true;
 		
 		}
-		
-		GameObject.Find ("EventSystem").GetComponent<black_window> ().blackscreen (6.0f);
+		GameObject.Find ("Boy").GetComponent<player_state> ().axe_hit (false, 4f);
 		Destroy (chicken);
 		GameObject.Find ("item").GetComponent <manage_inven> ().pop_item(this.gameObject);
 		
@@ -44,7 +48,7 @@ public class axe_to_chicken : MonoBehaviour {
 		
 		GameObject.Find ("blank").GetComponent<inven> ().dragitem = false ;
 
-
 		yield return null;
+
 	}
 }

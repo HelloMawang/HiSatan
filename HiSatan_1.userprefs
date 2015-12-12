@@ -1,30 +1,35 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_residence/script/cut_cutton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/worldmap/goto_final.cs">
     <Files>
-      <File FileName="Assets/script/worldmap/goto_residence.cs" Line="9" Column="3" />
-      <File FileName="Assets/script/worldmap/goto_barracks.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_final.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_palace.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_temple.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_town.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/worldmap/goto_woodman.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage1/script/book_touch.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/scroll_zoom.cs" Line="16" Column="79" />
-      <File FileName="Assets/stage_residence/script/cut_cutton.cs" Line="12" Column="14" />
-      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="26" Column="3" />
+      <File FileName="Assets/script/itemtext_manager.cs" Line="14" Column="15" />
+      <File FileName="Assets/script/Object_Cursor.cs" Line="30" Column="3" />
+      <File FileName="Assets/script/text_manager.cs" Line="3" Column="1" />
+      <File FileName="Assets/script/item_info.cs" Line="11" Column="85" />
+      <File FileName="Assets/script/DragGameObject.cs" Line="23" Column="17" />
+      <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="72" Column="39" />
+      <File FileName="Assets/script/worldmap/worldmap_manage.cs" Line="10" Column="3" />
+      <File FileName="Assets/script/worldmap/goto_palace.cs" Line="8" Column="42" />
+      <File FileName="Assets/script/worldmap/goto_residence.cs" Line="10" Column="32" />
+      <File FileName="Assets/script/worldmap/goto_woodman.cs" Line="9" Column="32" />
+      <File FileName="Assets/script/worldmap/goto_temple.cs" Line="9" Column="32" />
+      <File FileName="Assets/script/worldmap/goto_final.cs" Line="4" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="script" expanded="True">
-              <Node name="worldmap" expanded="True" />
+              <Node name="soulstone" expanded="True" />
+              <Node name="worldmap" expanded="True">
+                <Node name="goto_final.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="stage_residence" expanded="True">
-              <Node name="script" expanded="True">
-                <Node name="cut_cutton.cs" selected="True" />
-              </Node>
+              <Node name="script" expanded="True" />
+            </Node>
+            <Node name="stage_woodman's_house" expanded="True">
+              <Node name="script" expanded="True" />
             </Node>
             <Node name="stage1" expanded="True">
               <Node name="script" expanded="True" />
