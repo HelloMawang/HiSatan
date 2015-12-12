@@ -46,7 +46,7 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 		
 	}
 	IEnumerator break_pillar(){
-
+		GameObject.Find ("Text_text").GetComponent<text_manager_residence> ().change_sentence (3);
 		Destroy( background);
 		Destroy( girl);
 		Destroy( tree);

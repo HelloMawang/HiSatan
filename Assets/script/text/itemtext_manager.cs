@@ -30,7 +30,7 @@ public class itemtext_manager : MonoBehaviour {
 
 	public void item_info_set(int num,Vector3 item_pos){
 		item_text.text = data_base [num];
-		panel.transform.position = (main_camera.transform.position)+new Vector3(0f,550f,0f);
+		panel.transform.position = new Vector3(0f,550f,0f);
 	}
 	public void item_info_off(){
 		panel.transform.position = new Vector3(0f,0f,0f);

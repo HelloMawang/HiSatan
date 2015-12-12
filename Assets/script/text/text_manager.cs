@@ -19,8 +19,8 @@ public class text_manager : MonoBehaviour {
 		,
 		" 나를 불러낸 것이 너로구나. 너의 의지를 내가 돕겠다. 나를 받아들여라."
 	};
-	public void change_sentence(int num){
-		this.num = num;
+	public void change_sentence(int number){
+		num = number;
 		StopCoroutine ("change_sentence_order");
 		StartCoroutine ("change_sentence_order");
 	}
