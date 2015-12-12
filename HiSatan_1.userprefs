@@ -1,19 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/text/text_manager_residence.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/text/itemtext_manager_woodman.cs">
     <Files>
       <File FileName="Assets/script/Object_Cursor.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/item_info.cs" Line="1" Column="1" />
       <File FileName="Assets/script/DragGameObject.cs" Line="1" Column="1" />
       <File FileName="Assets/script/soulstone/soulstone_manage.cs" Line="1" Column="1" />
       <File FileName="Assets/script/worldmap/worldmap_manage.cs" Line="1" Column="1" />
       <File FileName="Assets/stage1/script/branch_to_lamp.cs" Line="1" Column="1" />
       <File FileName="Assets/stage1/script/summon_devil.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/text/itemtext_manager_residence.cs" Line="23" Column="4" />
-      <File FileName="Assets/script/text/itemtext_manager.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/text/item_info_residence.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/text/text_manager_residence.cs" Line="20" Column="37" />
-      <File FileName="Assets/script/text/text_manager.cs" Line="39" Column="2" />
+      <File FileName="Assets/script/text/itemtext_manager_residence.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/text/item_info_residence.cs" Line="5" Column="2" />
+      <File FileName="Assets/script/text/text_manager_residence.cs" Line="19" Column="3" />
+      <File FileName="Assets/script/text/itemtext_manager_woodman.cs" Line="14" Column="4" />
+      <File FileName="Assets/script/text/item_info_woodman.cs" Line="15" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +21,7 @@
             <Node name="script" expanded="True">
               <Node name="soulstone" expanded="True" />
               <Node name="text" expanded="True">
-                <Node name="text_manager_residence.cs" selected="True" />
+                <Node name="itemtext_manager_woodman.cs" selected="True" />
               </Node>
               <Node name="worldmap" expanded="True" />
             </Node>
