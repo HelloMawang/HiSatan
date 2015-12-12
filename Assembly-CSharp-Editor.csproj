@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0019E5CB-A1F5-BA4B-AF85-623B522DD54A}</ProjectGuid>
+	<ProjectGuid>{6B160286-4443-363B-5C33-5B6E523BC7F4}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -113,7 +113,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets">
- <HintPath>/Users/Jang_wony/GitHub/HiSatan_1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ <HintPath>/Users/Parkjiyeon/Desktop/학교/2학년 2학기/시리어스게임/HiSatan/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{1C310333-0D7E-E60C-0BDA-4030F9F29C80}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{BF491B1E-7193-E96A-3D5F-5BFDEB9483D8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

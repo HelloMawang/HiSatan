@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1C310333-0D7E-E60C-0BDA-4030F9F29C80}</ProjectGuid>
+	<ProjectGuid>{BF491B1E-7193-E96A-3D5F-5BFDEB9483D8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -81,6 +81,8 @@
      <Compile Include="Assets\script\sound_play.cs" />
      <Compile Include="Assets\script\touch_to_move.cs" />
      <Compile Include="Assets\script\touch_to_sound.cs" />
+     <Compile Include="Assets\script\view.cs" />
+     <Compile Include="Assets\script\view_scene.cs" />
      <Compile Include="Assets\script\worldmap\goto_barracks.cs" />
      <Compile Include="Assets\script\worldmap\goto_final.cs" />
      <Compile Include="Assets\script\worldmap\goto_palace.cs" />
@@ -112,9 +114,12 @@
      <Compile Include="Assets\stage_residence\script\new_axe_to_tree.cs" />
      <Compile Include="Assets\stage_residence\script\scroll_zoom.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
+     <Compile Include="Assets\stage_temple\script\picture_button.cs" />
+     <Compile Include="Assets\stage_temple\script\picture_touch.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_state.cs" />
+     <Compile Include="Assets\stage_temple\script\sweeper_to_picture.cs" />
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\2D_Special_Effect_vol1\Darkness Force\skeleton.json.txt" />

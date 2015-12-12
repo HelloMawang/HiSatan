@@ -26,8 +26,6 @@ public class branch_to_lamp : MonoBehaviour {
 			GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 			if (Input.GetKeyUp (KeyCode.Mouse0)) {
 
-
-
 				candle_area.SetActive (true);
 
 				GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (branch);

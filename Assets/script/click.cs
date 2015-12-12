@@ -9,8 +9,6 @@ public class click_global : MonoBehaviour {
 	void OnMouseUpAsButton(){
 
 
-
-
 		Cursor.visible = true;
 		cursor_hand.SetActive (false);
 		
