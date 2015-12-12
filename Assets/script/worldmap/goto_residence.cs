@@ -6,5 +6,8 @@ public class goto_residence : MonoBehaviour {
 	void OnMouseUpAsButton() {
 
 		Application.LoadLevel ("stage_residence");
+		
+		gameObject.SetActive (false);
+		GameObject.Find ("worldmap").SetActive (false);
 	}
 }

@@ -74,6 +74,8 @@
      <Compile Include="Assets\script\devil_in_boy.cs" />
      <Compile Include="Assets\script\inven.cs" />
      <Compile Include="Assets\script\inven_num.cs" />
+     <Compile Include="Assets\script\item_info.cs" />
+     <Compile Include="Assets\script\itemtext_manager.cs" />
      <Compile Include="Assets\script\manage_inven.cs" />
      <Compile Include="Assets\script\manage_inven_global.cs" />
      <Compile Include="Assets\script\move_stage.cs" />
@@ -81,6 +83,7 @@
      <Compile Include="Assets\script\player_state.cs" />
      <Compile Include="Assets\script\soulstone\soulstone_manage.cs" />
      <Compile Include="Assets\script\sound_play.cs" />
+     <Compile Include="Assets\script\text_manager.cs" />
      <Compile Include="Assets\script\touch_to_move.cs" />
      <Compile Include="Assets\script\touch_to_sound.cs" />
      <Compile Include="Assets\script\worldmap\goto_barracks.cs" />
@@ -111,6 +114,7 @@
      <Compile Include="Assets\stage_residence\script\axe_to_pillar.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_pillar_onemore.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_tree.cs" />
+     <Compile Include="Assets\stage_residence\script\click_cat.cs" />
      <Compile Include="Assets\stage_residence\script\cut_cutton.cs" />
      <Compile Include="Assets\stage_residence\script\fix_axe.cs" />
      <Compile Include="Assets\stage_residence\script\get_soulstone.cs" />
