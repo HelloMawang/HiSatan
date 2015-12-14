@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_temple/script/acid_to_fountain.cs">
+    <Files>
+      <File FileName="Assets/stage_temple/script/acid_to_fountain.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_temple/script/sweeper_to_picture.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/get_soulstone.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

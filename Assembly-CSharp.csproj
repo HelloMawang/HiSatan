@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1C310333-0D7E-E60C-0BDA-4030F9F29C80}</ProjectGuid>
+	<ProjectGuid>{FC76E43C-29D5-0C4A-06E9-6A446AEE55CA}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -65,6 +65,7 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\move_priest.cs" />
      <Compile Include="Assets\script\DDalKKak.cs" />
      <Compile Include="Assets\script\DragGameObject.cs" />
      <Compile Include="Assets\script\Object_Cursor.cs" />
@@ -130,10 +131,21 @@
      <Compile Include="Assets\stage_residence\script\ori_axe_to_pillar.cs" />
      <Compile Include="Assets\stage_residence\script\scroll_zoom.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
+     <Compile Include="Assets\stage_temple\script\acid_to_fountain.cs" />
+     <Compile Include="Assets\stage_temple\script\bottle_kind.cs" />
+     <Compile Include="Assets\stage_temple\script\bottle_puzzle.cs" />
+     <Compile Include="Assets\stage_temple\script\chk_acid.cs" />
+     <Compile Include="Assets\stage_temple\script\click_fountain.cs" />
+     <Compile Include="Assets\stage_temple\script\erase_picture.cs" />
+     <Compile Include="Assets\stage_temple\script\picture_button.cs" />
+     <Compile Include="Assets\stage_temple\script\picture_touch.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_state.cs" />
+     <Compile Include="Assets\stage_temple\script\sweeper_to_picture.cs" />
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
+     <Compile Include="Assets\stage_temple\script\view.cs" />
+     <Compile Include="Assets\stage_temple\script\view_scene.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\bat_to_man.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\boy_rotate.cs" />
      <Compile Include="Assets\stage_woodman&apos;s_house\script\carpet_click.cs" />
