@@ -65,6 +65,8 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\drag_bottle.cs" />
+     <Compile Include="Assets\new_drag.cs" />
      <Compile Include="Assets\script\DDalKKak.cs" />
      <Compile Include="Assets\script\DragGameObject.cs" />
      <Compile Include="Assets\script\Object_Cursor.cs" />
@@ -114,6 +116,9 @@
      <Compile Include="Assets\stage_residence\script\new_axe_to_tree.cs" />
      <Compile Include="Assets\stage_residence\script\scroll_zoom.cs" />
      <Compile Include="Assets\stage_residence\script\touch_girl.cs" />
+     <Compile Include="Assets\stage_temple\script\bottle_kind.cs" />
+     <Compile Include="Assets\stage_temple\script\bottle_puzzle.cs" />
+     <Compile Include="Assets\stage_temple\script\erase_picture.cs" />
      <Compile Include="Assets\stage_temple\script\picture_button.cs" />
      <Compile Include="Assets\stage_temple\script\picture_touch.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
