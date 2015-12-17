@@ -119,6 +119,8 @@
      <Compile Include="Assets\stage1\script\fire_candle.cs" />
      <Compile Include="Assets\stage1\script\put_candle.cs" />
      <Compile Include="Assets\stage1\script\summon_devil.cs" />
+     <Compile Include="Assets\stage_final\final_start.cs" />
+     <Compile Include="Assets\stage_final\sculpture_touch.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_pillar.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_pillar_onemore.cs" />
      <Compile Include="Assets\stage_residence\script\axe_to_tree.cs" />
@@ -143,11 +145,13 @@
      <Compile Include="Assets\stage_temple\script\chk_acid.cs" />
      <Compile Include="Assets\stage_temple\script\click_fountain.cs" />
      <Compile Include="Assets\stage_temple\script\erase_picture.cs" />
+     <Compile Include="Assets\stage_temple\script\get_soulstone_temple.cs" />
      <Compile Include="Assets\stage_temple\script\picture_button.cs" />
      <Compile Include="Assets\stage_temple\script\picture_touch.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_manage.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_open.cs" />
      <Compile Include="Assets\stage_temple\script\puzzle_state.cs" />
+     <Compile Include="Assets\stage_temple\script\start_temple.cs" />
      <Compile Include="Assets\stage_temple\script\sweeper_to_picture.cs" />
      <Compile Include="Assets\stage_temple\script\touch_marble.cs" />
      <Compile Include="Assets\stage_temple\script\view.cs" />
