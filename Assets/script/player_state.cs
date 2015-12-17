@@ -9,9 +9,19 @@ public class player_state : MonoBehaviour {
 
 	public int his_position = 0;
 	public int there_position;
-	public Animator anima;
+	public Animator anima_std;
+	public Animator anima_BW;
+	public Animator anima_SW;
+	public Animator anima_FD;
+	public Animator anima_PD;
 
 	public bool is_Rotate= false;
+
+
+	public void Update(){
+
+		DontDestroyOnLoad (this);
+	}
 
 	public void walk(Vector3 p_vector,float dis,int its_location){
 
@@ -36,9 +46,17 @@ public class player_state : MonoBehaviour {
 	public IEnumerator do_walk (){
 		int frame = 50;
 		
-		if (anima.GetBool ("Idle") == true || anima.GetBool("walk")==true) {
-			anima.SetBool ("walk", true);
-			anima.SetBool ("Idle", false);
+		//if (anima_std.GetBool ("Idle") == true || anima_std.GetBool("walk")==true) {
+			anima_std.SetBool ("walk", true);
+			anima_std.SetBool ("Idle", false);
+			anima_BW.SetBool ("walk", true);
+			anima_BW.SetBool ("Idle", false);
+			anima_SW.SetBool ("walk", true);
+			anima_SW.SetBool ("Idle", false);
+			anima_FD.SetBool ("walk", true);
+			anima_FD.SetBool ("Idle", false);
+			anima_PD.SetBool ("walk", true);
+			anima_PD.SetBool ("Idle", false);
 			for (int i=0; i<time_to_walk*frame; i++) {
 
 				gameObject.transform.Translate (player_vector * (walk_speed / frame));
@@ -46,9 +64,18 @@ public class player_state : MonoBehaviour {
 			}
 			his_position = there_position;
 			GameObject.Find ("EventSystem").GetComponent<move_stage> ().camera_change (his_position);
-			anima.SetBool ("walk", false);
-			anima.SetBool ("Idle", true);
-		}
+			anima_std.SetBool ("walk", false);
+			anima_std.SetBool ("Idle", true);
+			anima_BW.SetBool ("walk", false);
+			anima_BW.SetBool ("Idle", true);
+			anima_SW.SetBool ("walk", false);
+			anima_SW.SetBool ("Idle", true);
+			anima_FD.SetBool ("walk", false);
+			anima_FD.SetBool ("Idle", true);
+			anima_PD.SetBool ("walk", false);
+			anima_PD.SetBool ("Idle", true);
+
+		//}
 	}
 	public float axe_hit_time;
 	public void axe_hit(bool isrotate,float ah_time){
@@ -62,12 +89,12 @@ public class player_state : MonoBehaviour {
 		axe_hit_time=ah_time;
 		StartCoroutine("do_axehit");
 	}
-	public IEnumerator do_axehit(){
+	public IEnumerator do_axehit(){/*
 		anima.SetBool ("AxeHit", true);
 		anima.SetBool ("Idle", false);
 		yield return new WaitForSeconds(axe_hit_time);
 		anima.SetBool ("AxeHit", false);
-		anima.SetBool ("Idle", true);
-
+		anima.SetBool ("Idle", true);*/
+		yield return null;
 	}
 }
