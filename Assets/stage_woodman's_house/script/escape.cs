@@ -11,6 +11,6 @@ public class escape : MonoBehaviour {
 		yield return new WaitForSeconds (2.2f);
 		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (3);
 		
-		Destroy (this.gameObject);
+		gameObject.SetActive (false);
 	}
 }

@@ -14,7 +14,7 @@ public class summon_devil : MonoBehaviour {
 	}
 
 	IEnumerator summoned(){
-		
+
 		GameObject.Find ("Text_text").GetComponent<text_manager> ().change_sentence (2);
 		yield return new WaitForSeconds (8f);
 		soulstone.SetActive (true);
@@ -22,5 +22,6 @@ public class summon_devil : MonoBehaviour {
 		yield return new WaitForSeconds (4f);
 		soulstone.SetActive (false);
 		worldmap.SetActive (true);
+		GameObject.Find ("Boy").GetComponent<player_manager> ().can_change = true;
 	}
 }

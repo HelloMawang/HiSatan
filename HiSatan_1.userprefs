@@ -1,24 +1,27 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/player_manager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stage_woodman's_house/script/get_soulstone_woodman.cs">
     <Files>
       <File FileName="Assets/stage_woodman's_house/script/escape_index.cs" Line="9" Column="24" />
-      <File FileName="Assets/stage_woodman's_house/script/escape_with_girl.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_woodman's_house/script/hit_by_man.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/text/text_manager_woodman.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_woodman's_house/script/escape.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/text/text_manager_residence.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/make_new_axe.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/ori_axe_to_pillar.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/axe_to_pillar.cs" Line="1" Column="1" />
-      <File FileName="Assets/stage_residence/script/axe_to_tree.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/manage_inven.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/touch_to_move.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/escape_with_girl.cs" Line="20" Column="33" />
       <File FileName="Assets/script/devil_in_boy.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/player_state.cs" Line="83" Column="24" />
-      <File FileName="Assets/script/player_manager.cs" Line="14" Column="20" />
-      <File FileName="Assets/stage_residence/script/new_axe_to_tree.cs" Line="45" Column="50" />
-      <File FileName="Assets/stage_residence/script/can_use_devil.cs" Line="13" Column="3" />
+      <File FileName="Assets/script/player_state.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/player_manager.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/new_axe_to_tree.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/can_use_devil.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/devilchange.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage1/script/summon_devil.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/startposition_residence.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_temple/script/puzzle_manage.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/move_stage.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/devil_to_pillar.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/devil_pillar_touch.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_residence/script/axe_to_pillar_onemore.cs" Line="1" Column="1" />
+      <File FileName="Assets/stage_woodman's_house/script/can_use_devil_wood.cs" Line="20" Column="32" />
+      <File FileName="Assets/stage_woodman's_house/script/escape.cs" Line="14" Column="32" />
+      <File FileName="Assets/stage_woodman's_house/script/devil_touch_wood.cs" Line="11" Column="33" />
+      <File FileName="Assets/stage_woodman's_house/script/hit_by_man.cs" Line="44" Column="25" />
+      <File FileName="Assets/stage_woodman's_house/script/get_soulstone_woodman.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,13 +31,17 @@
               <Node name="soulstone" expanded="True" />
               <Node name="text" expanded="True" />
               <Node name="worldmap" expanded="True" />
-              <Node name="player_manager.cs" selected="True" />
             </Node>
             <Node name="stage_residence" expanded="True">
               <Node name="script" expanded="True" />
             </Node>
-            <Node name="stage_woodman's_house" expanded="True">
+            <Node name="stage_temple" expanded="True">
               <Node name="script" expanded="True" />
+            </Node>
+            <Node name="stage_woodman's_house" expanded="True">
+              <Node name="script" expanded="True">
+                <Node name="get_soulstone_woodman.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="stage1" expanded="True">
               <Node name="script" expanded="True" />

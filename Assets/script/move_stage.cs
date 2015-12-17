@@ -1,11 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class move_stage : MonoBehaviour {
 
 
 	public GameObject main_camera;
-	public GameObject player;
 
 	public int[] change_position;
 
@@ -15,8 +14,9 @@ public class move_stage : MonoBehaviour {
 
 		for(int i=0;i<change_position.Length;i++){
 			if(player_position == change_position[i]){
+				GameObject.Find("World_map").transform.position +=camera_position[i] -main_camera.transform.position;
 				main_camera.transform.position = camera_position[i];
-				player.transform.position = goto_player_position[i];
+				GameObject.Find("Boy").transform.position = goto_player_position[i];
 			}
 		}
 

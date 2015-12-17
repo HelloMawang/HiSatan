@@ -45,6 +45,10 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 		}
 		
 	}
+	public void devil_break_pillar(){
+
+		StartCoroutine("break_pillar");
+	}
 	IEnumerator break_pillar(){
 		GameObject.Find ("Text_text").GetComponent<text_manager_residence> ().change_sentence (3);
 		Destroy( background);
@@ -52,6 +56,9 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 		Destroy( tree);
 		Destroy( moveareal);
 		Destroy( movearear);
+		Destroy (ori_tree);
+		Destroy (cat);
+		Destroy (girl_with_cat);
 		back1.SetActive (true);
 		frontback.SetActive (true);
 		soulstone.SetActive (true);

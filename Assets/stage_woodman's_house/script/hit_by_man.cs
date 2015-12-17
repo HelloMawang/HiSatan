@@ -12,7 +12,6 @@ public class hit_by_man : MonoBehaviour {
 	public GameObject man;
 	public GameObject safe_cracker;
 
-	public GameObject boy;
 	public GameObject main_camera;
 
 	bool only_gar=false;
@@ -42,7 +41,7 @@ public class hit_by_man : MonoBehaviour {
 		yield return new WaitForSeconds(0.1f);
 		pantaegi.SetActive(true);
 		safe_cracker.SetActive(true);
-		boy.transform.position = new Vector3(51.99f,-0.8f,0f);
+		GameObject.Find("Boy").transform.position = new Vector3(51.99f,-0.8f,0f);
 		main_camera.transform.position = new Vector3(51.3f,0.02f,-8.6f);
 		yield return new WaitForSeconds (2f);
 		for(int j=0;j<str.Length;j++){

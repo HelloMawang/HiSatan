@@ -3,13 +3,10 @@ using System.Collections;
 
 public class touch_to_move : MonoBehaviour {
 
-	public GameObject player;
-
 	public int its_location;
-
 	void OnMouseUpAsButton() {
 
-		Vector3 direction = (this.gameObject.transform.position + new Vector3(0.5f,2f,0f)-player.transform.position  ); 
+		Vector3 direction = (this.gameObject.transform.position + new Vector3(0.5f,2f,0f)-GameObject.Find("Boy").transform.position  ); 
 
 		float dis = direction.magnitude;
 		if (dis > 0.1f) {
