@@ -5,7 +5,6 @@ public class view : MonoBehaviour {
 	
 	
 	public GameObject main_camera;
-	public GameObject player;
 	
 	public int[] change_scene = new int[2];
 	

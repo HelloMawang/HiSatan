@@ -12,6 +12,7 @@ public class text_manager : MonoBehaviour {
 	private float text_delay=0.05f;
 
 	public Text main_Text;
+	public GameObject pantagi;
 	private int num;
 	private string[] data_base = {" 분명 그를 불러낼 수 있는 방법이 있을거야"
 		,
@@ -25,11 +26,13 @@ public class text_manager : MonoBehaviour {
 		StartCoroutine ("change_sentence_order");
 	}
 	IEnumerator change_sentence_order(){
+		pantagi.SetActive (true);
 		for (int i=0; i<=data_base[num].Length; i++) {
 			main_Text.text = data_base[num].Substring(0,i);
 			yield return new WaitForSeconds(text_delay);
 		}
 		yield return new WaitForSeconds (2f);
+		pantagi.SetActive (false);
 		main_Text.text = "";
 	}
 

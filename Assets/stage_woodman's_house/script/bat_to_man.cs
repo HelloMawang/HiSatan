@@ -6,6 +6,7 @@ public class bat_to_man : MonoBehaviour {
 	public GameObject bat;
 	public GameObject lying_man;
 	public GameObject finding_man;
+	public AudioSource hit_sound;
 	void Update(){
 		
 		Vector3 lp = finding_man.transform.position;
@@ -25,6 +26,7 @@ public class bat_to_man : MonoBehaviour {
 		
 	}
 	IEnumerator hit_the_man(){
+		hit_sound.Play ();
 		for (int i=0; i<50; i++) {
 			finding_man.transform.Translate(new Vector3(-0.05f,0f,0f));
 			finding_man.transform.Rotate(new Vector3(0f,0f,0.5f));

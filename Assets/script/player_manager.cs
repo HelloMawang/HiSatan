@@ -7,7 +7,7 @@ public class player_manager : MonoBehaviour {
 
 
 	public bool is_devil =false;
-	public bool std=true;
+	public bool std=false;
 	public bool BW=false;
 	public bool SW=false;
 	public bool FD=false;
@@ -22,6 +22,7 @@ public class player_manager : MonoBehaviour {
 	public bool can_change = false;
 
 	public void set_player(){
+		std = true;
 		if (std == true)
 			boy_std.SetActive (true);
 		else
@@ -68,6 +69,10 @@ public class player_manager : MonoBehaviour {
 					SW = true;
 				}
 			} else { // use_devil>=2
+				if(SW==true){
+					SW= false;
+					FD=true;
+				}
 				if (FD == true) {
 					FD = false;
 					BW = true;

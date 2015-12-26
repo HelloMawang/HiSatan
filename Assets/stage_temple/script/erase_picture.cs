@@ -12,6 +12,7 @@ public class erase_picture : MonoBehaviour {
 	public GameObject picture_out1;
 	public GameObject picture_out2;
 	public GameObject bottle;
+	public GameObject smoke_effect;
 	//public GameObject bottle_after;
 	int chk=0;
 
@@ -29,8 +30,9 @@ public class erase_picture : MonoBehaviour {
 						chk=1;
 						GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (bottle);
 						GameObject.Find ("blank").GetComponent<inven> ().dragitem = false;
-						GameObject.Find("EventSystem").GetComponent<on_correcteffect>().StopCoroutine ("on_effect");
+						GameObject.Find("EventSystem").GetComponent<on_correcteffect>().off_eff();
 						GameObject.Find ("item").GetComponent <manage_inven>().push_item(bottle);
+						smoke_effect.SetActive(true);
 					}
 				}
 			}
@@ -45,8 +47,9 @@ public class erase_picture : MonoBehaviour {
 						new_background.SetActive (true);
 						GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (sweeper);
 						GameObject.Find ("blank").GetComponent<inven> ().dragitem = false;
-
-						GameObject.Find("EventSystem").GetComponent<on_correcteffect>().StopCoroutine ("on_effect");
+						chk=2;
+						GameObject.Find("EventSystem").GetComponent<on_correcteffect>().off_eff();
+						smoke_effect.SetActive(false);
 					}
 				}
 			}

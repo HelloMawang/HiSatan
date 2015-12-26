@@ -7,11 +7,15 @@ public class escape_index : MonoBehaviour {
 
 	public GameObject pantaegi; 
 	public Text main_Text;
+	public AudioSource run_sound;
+	public GameObject item_pantaegi;
 	public void escape(){
 		StartCoroutine("print_text");
 	}
 
 	IEnumerator print_text(){
+		run_sound.Play ();
+		item_pantaegi.SetActive (false);
 		string[] str={"다행히 저 아이에게 \n뛸 수 있을 정도의 힘은\n 남아있었던 것 같다."
 		};
 		for(int j=0;j<str.Length;j++){
@@ -21,6 +25,7 @@ public class escape_index : MonoBehaviour {
 			}
 			yield return new WaitForSeconds(1f);
 		}
+		item_pantaegi.SetActive (true);
 		pantaegi.SetActive (false);
 		main_Text.text = "";
 		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (4);

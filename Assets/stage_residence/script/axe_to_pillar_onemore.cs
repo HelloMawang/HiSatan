@@ -24,6 +24,7 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 	public GameObject tree;
 	public GameObject moveareal;
 	public GameObject movearear;
+	public GameObject pillar_touch;
 	//
 
 	public GameObject back1;
@@ -51,6 +52,8 @@ public class axe_to_pillar_onemore : MonoBehaviour {
 	}
 	IEnumerator break_pillar(){
 		GameObject.Find ("Text_text").GetComponent<text_manager_residence> ().change_sentence (3);
+		Destroy (pillar_area);
+		Destroy (pillar_touch);
 		Destroy( background);
 		Destroy( girl);
 		Destroy( tree);

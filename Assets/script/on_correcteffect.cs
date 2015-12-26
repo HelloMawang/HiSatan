@@ -20,4 +20,7 @@ public class on_correcteffect : MonoBehaviour {
 		yield return new WaitForSeconds (0.02f);
 		correct_effect.SetActive (false);
 	}
+	public void off_eff(){
+		correct_effect.SetActive (false);
+	}
 }

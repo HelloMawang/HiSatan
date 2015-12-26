@@ -10,7 +10,7 @@ public class text_manager_woodman : MonoBehaviour {
 	//public GUIText main_Text;
 	
 	private float text_delay=0.05f;
-	
+	public GameObject pantaegi;
 	public Text main_Text;
 	private int num;
 	private string[] data_base = {"영혼석은 이 집 어딘가에 있을 것이다. 저 나무꾼이라면 어디 있는지 알겠지"
@@ -33,11 +33,13 @@ public class text_manager_woodman : MonoBehaviour {
 		StartCoroutine ("change_sentence_order");
 	}
 	IEnumerator change_sentence_order(){
+		pantaegi.SetActive (true);
 		for (int i=0; i<=data_base[num].Length; i++) {
 			main_Text.text = data_base[num].Substring(0,i);
 			yield return new WaitForSeconds(text_delay);
 		}
 		yield return new WaitForSeconds (2f);
+		pantaegi.SetActive (false);
 		main_Text.text = "";
 	}
 

@@ -10,10 +10,14 @@ public class hit_by_man : MonoBehaviour {
 	public GameObject carpet;
 
 	public GameObject man;
+	public GameObject back_man;
+	public GameObject lying_man;
 	public GameObject safe_cracker;
 
 	public GameObject main_camera;
+	public AudioSource hit_sound;
 
+	public GameObject item_pantaegi;
 	bool only_gar=false;
 	// Update is called once per frame
 	void Update () {
@@ -30,7 +34,11 @@ public class hit_by_man : MonoBehaviour {
 	}
 
 	IEnumerator hitted(){
+		item_pantaegi.SetActive (false);
+		hit_sound.Play ();
 		man.SetActive(false);
+		back_man.SetActive (false);
+		lying_man.SetActive (false);
 		string[] str={"둔탁한 소리와 \n머리를 내려치는 충격"
 			,"나는 그대로 정신을 잃었다"
 			,"희미한 의식너머로 \n나무꾼의 목소리가 \n들려왔다."
@@ -53,6 +61,7 @@ public class hit_by_man : MonoBehaviour {
 		}
 		main_Text.text = "";
 		pantaegi.SetActive(false);
+		item_pantaegi.SetActive (true);
 		yield return new WaitForSeconds(0.5f);
 		GameObject.Find ("Text_text").GetComponent<text_manager_woodman> ().change_sentence (1);
 	}

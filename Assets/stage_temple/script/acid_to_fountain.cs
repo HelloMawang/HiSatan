@@ -15,9 +15,8 @@ public class acid_to_fountain : MonoBehaviour {
 			GameObject.Find("EventSystem").GetComponent<on_correcteffect>().on_eff();
 			if(Input.GetKeyUp(KeyCode.Mouse0)){				
 				acid_chk=true;
-				GameObject.Find ("item").GetComponent <manage_inven> ().pop_item (bottle);
 				GameObject.Find ("blank").GetComponent<inven> ().dragitem = false;
-				GameObject.Find("EventSystem").GetComponent<on_correcteffect>().StopCoroutine ("on_effect");
+				GameObject.Find("EventSystem").GetComponent<on_correcteffect>().off_eff();
 			}
 		}
 		

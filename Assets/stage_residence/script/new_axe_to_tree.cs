@@ -42,7 +42,8 @@ public class new_axe_to_tree : MonoBehaviour {
 		GameObject.Find ("soulstone_manager").transform.position = new Vector3 (main_camera.transform.position.x, main_camera.transform.position.y, 0f);
 		GameObject.Find ("soulstone_manager").GetComponent<soulstone_manage> ().get_soulstone (1, 1);
 		yield return new WaitForSeconds (3f);
-		GameObject.Find ("worldmap").SetActive (true);
+		GameObject.Find ("soulstone_interface").SetActive (false);
+		GameObject.Find ("World_map").GetComponent<worldmap_manage>().go_to();
 		
 	}
 }

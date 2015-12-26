@@ -14,13 +14,15 @@ public class goto_stage1 : MonoBehaviour {
 				mov.Play ();
 				StartCoroutine ("delay_prol");
 				check=true;
-
-				//Application.LoadLevel ("stage1");
 			}
+		}
+
+		if (Input.GetKey (KeyCode.Space)) {
+			Application.LoadLevel ("stage1");
 		}
 	}
 	IEnumerator delay_prol(){
-		yield return new WaitForSeconds (31f);
+		yield return new WaitForSeconds (35f);
 		Application.LoadLevel ("stage1");
 	}
 }
